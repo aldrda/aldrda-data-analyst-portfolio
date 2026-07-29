@@ -1,1 +1,16 @@
-
+{
+    "name": "Aldrda",
+    "title": "Data Analyst",
+    "typing": [
+        "Data Analyst",
+        "Python Developer",
+        "SQL Enthusiast",
+        "Power BI Learner"
+    ],
+    "about": "Passionate Data Analyst focused on transforming raw data into meaningful insights using Python, SQL, Excel and Power BI. I enjoy solving problems through data and building real-world analytics projects.",
+    "email": "aldrdah23@gmail.com",
+    "github": "#",
+    "linkedin": "#",
+    "cv": "assets/cv.pdf",
+    "image": "assets/images/profile.png"
+}
