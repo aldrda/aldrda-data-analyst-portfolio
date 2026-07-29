@@ -78,6 +78,34 @@ async function loadProfile(){
 
     }
 
+    // Stats
+
+if(data.stats){
+
+
+    document.getElementById(
+        "projects-count"
+    ).textContent =
+    data.stats.projects + "+";
+
+
+
+    document.getElementById(
+        "skills-count"
+    ).textContent =
+    data.stats.skills + "+";
+
+
+
+    document.getElementById(
+        "certificates-count"
+    ).textContent =
+    data.stats.certificates + "+";
+
+
+}
+
+    
 
 }
 
