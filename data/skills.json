@@ -1,25 +1,41 @@
-
 [
     {
-        "category": "Data Analysis",
+        "category": "Data Analysis & Visualization",
         "skills": [
-            "Python",
-            "SQL",
-            "Excel",
-            "Power BI",
-            "Pandas",
-            "NumPy"
+            {
+                "name": "Excel",
+                "level": "90%"
+            },
+            {
+                "name": "SQL",
+                "level": "85%"
+            },
+            {
+                "name": "Tableau",
+                "level": "80%"
+            },
+            {
+                "name": "Power BI",
+                "level": "80%"
+            }
         ]
     },
 
     {
-        "category": "Programming",
+        "category": "Programming & Tools",
         "skills": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Git",
-            "GitHub"
+            {
+                "name": "Python",
+                "level": "75%"
+            },
+            {
+                "name": "PowerPoint",
+                "level": "90%"
+            },
+            {
+                "name": "Git & GitHub",
+                "level": "70%"
+            }
         ]
     }
 ]
