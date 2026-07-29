@@ -334,3 +334,103 @@ async function loadCertificates(){
 
 
 }
+
+
+// ===============================
+// Typing Effect
+// ===============================
+
+
+async function typingEffect(){
+
+
+    const response =
+    await fetch("data/profile.json");
+
+
+    const data =
+    await response.json();
+
+
+
+    const element =
+    document.getElementById("typing");
+
+
+
+    if(!element) return;
+
+
+
+    let index = 0;
+
+    let charIndex = 0;
+
+    let deleting = false;
+
+
+
+    function type(){
+
+
+        let current =
+        data.typing[index];
+
+
+
+        if(!deleting){
+
+
+            element.textContent =
+            current.substring(0,charIndex++);
+
+
+
+            if(charIndex > current.length){
+
+                deleting = true;
+
+                setTimeout(type,1000);
+
+                return;
+
+            }
+
+
+        }else{
+
+
+            element.textContent =
+            current.substring(0,charIndex--);
+
+
+
+            if(charIndex === 0){
+
+
+                deleting = false;
+
+                index =
+                (index + 1) % data.typing.length;
+
+
+            }
+
+
+        }
+
+
+        setTimeout(type,
+        deleting ? 50 : 100);
+
+
+    }
+
+
+
+    type();
+
+}
+
+
+typingEffect();
