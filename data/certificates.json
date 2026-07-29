@@ -1,1 +1,16 @@
+[
+    {
+        "name": "Data Analysis Certificate",
+        "issuer": "Online Platform",
+        "image": "assets/images/certificate1.png",
+        "link": "#"
+    },
 
+
+    {
+        "name": "Python Programming Certificate",
+        "issuer": "Online Platform",
+        "image": "assets/images/certificate2.png",
+        "link": "#"
+    }
+]
