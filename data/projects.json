@@ -1,1 +1,27 @@
+[
+    {
+        "title": "Sales Data Analysis",
+        "image": "assets/images/project1.png",
+        "description": "Analyzed sales data to discover trends and business insights.",
+        "tools": [
+            "Python",
+            "Pandas",
+            "Power BI"
+        ],
+        "github": "#",
+        "demo": "#"
+    },
 
+
+    {
+        "title": "Database Management System",
+        "image": "assets/images/project2.png",
+        "description": "Built a database project using SQL with structured queries.",
+        "tools": [
+            "SQL",
+            "Database"
+        ],
+        "github": "#",
+        "demo": "#"
+    }
+]
