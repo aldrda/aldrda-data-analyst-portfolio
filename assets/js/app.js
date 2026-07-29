@@ -89,19 +89,24 @@ async function loadProfile(){
 // Skills
 // ===============================
 
-
 async function loadSkills(){
 
-    const response = await fetch("data/skills.json");
+    const response =
+    await fetch("data/skills.json");
 
-    const skills = await response.json();
+
+    const skills =
+    await response.json();
+
 
 
     const container =
     document.querySelector(".skills-container");
 
 
+
     if(!container) return;
+
 
 
     container.innerHTML = "";
@@ -111,37 +116,81 @@ async function loadSkills(){
     skills.forEach(group => {
 
 
-        let card = document.createElement("div");
+        let card =
+        document.createElement("div");
+
 
         card.className = "skill-card";
 
 
+
+        let skillsHTML = "";
+
+
+
+        group.skills.forEach(skill => {
+
+
+            skillsHTML += `
+
+            <div class="skill-item">
+
+
+                <div class="skill-info">
+
+                    <span>
+                    ${skill.name}
+                    </span>
+
+                    <span>
+                    ${skill.level}
+                    </span>
+
+                </div>
+
+
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                    style="width:${skill.level}">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            `;
+
+
+        });
+
+
+
         card.innerHTML = `
 
-        <h3>
-        ${group.category}
-        </h3>
+            <h3>
+            ${group.category}
+            </h3>
 
 
-        <ul>
+            ${skillsHTML}
 
-        ${group.skills
-        .map(skill => `<li>${skill}</li>`)
-        .join("")}
-
-        </ul>
 
         `;
+
 
 
         container.appendChild(card);
 
 
+
     });
 
 
-}
 
+}
 
 
 
