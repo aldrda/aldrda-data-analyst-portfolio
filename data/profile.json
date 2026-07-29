@@ -5,9 +5,16 @@
         "Data Analyst",
         "Python Developer",
         "SQL Enthusiast",
-        "Power BI Learner"
+        "Data Visualization Learner"
     ],
-    "about": "Passionate Data Analyst focused on transforming raw data into meaningful insights using Python, SQL, Excel and Power BI. I enjoy solving problems through data and building real-world analytics projects.",
+    "about": "I am a Data Analyst passionate about transforming data into meaningful insights. I work with Excel, SQL, Python, Tableau and Power BI to analyze data, discover patterns and support better decisions.",
+    
+    "stats": {
+        "projects": 5,
+        "skills": 7,
+        "certificates": 3
+    },
+
     "email": "aldrdah23@gmail.com",
     "github": "#",
     "linkedin": "#",
