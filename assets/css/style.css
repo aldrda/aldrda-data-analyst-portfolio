@@ -810,3 +810,50 @@ footer{
     }
 
 }
+
+/* =========================
+   Scroll Animation
+========================= */
+
+
+.section,
+.hero-content,
+.skill-card,
+.project-card,
+.certificate-card{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:1s ease;
+
+}
+
+
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+
+
+/* Cards Hover */
+
+
+.skill-card:hover,
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.08);
+
+}
+
+
