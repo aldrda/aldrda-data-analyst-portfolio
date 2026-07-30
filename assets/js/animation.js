@@ -5,7 +5,7 @@
 
 const elements =
 document.querySelectorAll(
-".section,  .skill-card, .project-card, .certificate-card"
+".section,.hero-content,  .skill-card, .project-card, .certificate-card"
 );
 
 
