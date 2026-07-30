@@ -180,10 +180,6 @@ header{
     align-items:center;
 
     gap:50px;
-   
-   opacity: 1;
-   
-   transform: none;
 
 }
 
@@ -821,6 +817,7 @@ footer{
 
 
 .section,
+.hero-content,
 .skill-card,
 .project-card,
 .certificate-card{
