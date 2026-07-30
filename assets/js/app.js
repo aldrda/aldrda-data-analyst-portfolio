@@ -61,7 +61,7 @@ async function loadProfile(){
     const image = document.querySelector(".hero-image img");
 
     if(image){
-        image.src = data.image;
+        //image.src = data.image;
     }
 
 
