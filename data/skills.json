@@ -1,41 +1,84 @@
 [
-    {
-        "category": "Data Analysis & Visualization",
-        "skills": [
-            {
-                "name": "Excel",
-                "level": "90%"
-            },
-            {
-                "name": "SQL",
-                "level": "85%"
-            },
-            {
-                "name": "Tableau",
-                "level": "80%"
-            },
-            {
-                "name": "Power BI",
-                "level": "80%"
-            }
-        ]
-    },
-
-    {
-        "category": "Programming & Tools",
-        "skills": [
-            {
-                "name": "Python",
-                "level": "75%"
-            },
-            {
-                "name": "PowerPoint",
-                "level": "90%"
-            },
-            {
-                "name": "Git & GitHub",
-                "level": "70%"
-            }
-        ]
-    }
+  {
+    "category": "Data Analysis & Business Intelligence",
+    "skills": [
+      {
+        "name": "Excel (Advanced)",
+        "level": "90%"
+      },
+      {
+        "name": "SQL",
+        "level": "85%"
+      },
+      {
+        "name": "Power BI",
+        "level": "85%"
+      },
+      {
+        "name": "Tableau",
+        "level": "80%"
+      },
+      {
+        "name": "Power Query (ETL)",
+        "level": "80%"
+      },
+      {
+        "name": "Data Visualization",
+        "level": "90%"
+      },
+      {
+        "name": "Data Cleaning",
+        "level": "90%"
+      },
+      {
+        "name": "Data Modeling",
+        "level": "75%"
+      },
+      {
+        "name": "DAX",
+        "level": "70%"
+      },
+      {
+        "name": "Statistics",
+        "level": "75%"
+      },
+      {
+        "name": "Business Analysis",
+        "level": "80%"
+      },
+      {
+        "name": "KPI Reporting",
+        "level": "85%"
+      }
+    ]
+  },
+  {
+    "category": "Programming & Data Tools",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "75%"
+      },
+      {
+        "name": "Pandas",
+        "level": "75%"
+      },
+      {
+        "name": "NumPy",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "GitHub",
+        "level": "70%"
+      },
+      {
+        "name": "AI for Data Analysis",
+        "level": "80%"
+      }
+    ]
+  }
 ]
